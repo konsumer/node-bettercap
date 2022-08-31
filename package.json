@@ -1,6 +1,6 @@
 {
   "name": "bettercap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bettercap API client for javascript",
   "type": "module",
   "source": "index.js",
