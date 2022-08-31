@@ -1,0 +1,10 @@
+{
+    "InterfaceName": "",
+    "Caplet": "../caplets/netmon.cap",
+    "Debug": false,
+    "Silent": false,
+    "NoHistory": false,
+    "Commands": "",
+    "CpuProfile": "",
+    "MemProfile": ""
+}

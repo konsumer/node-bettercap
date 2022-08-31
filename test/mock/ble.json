@@ -1,0 +1,15 @@
+{
+    "devices": [{
+        "last_seen": "2018-02-23T06:28:43.650628576+01:00",
+        "name": "Adafruit Bluefruit LE",
+        "mac": "00:AA:BB:CC:DD:33",
+        "vendor": "",
+        "rssi": -68
+    }, {
+        "last_seen": "2018-02-23T06:28:43.650628576+01:00",
+        "name": "",
+        "mac": "-",
+        "vendor": "",
+        "rssi": -64
+    }]
+}

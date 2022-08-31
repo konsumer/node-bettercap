@@ -1,0 +1,27 @@
+[{
+  "tag": "sys.log",
+  "time": "2018-02-22T16:57:39.449618552+01:00",
+  "data": {
+    "Level": 1,
+    "Message": "Ticker running with period 1s."
+  }
+}, {
+  "tag": "wifi.ap.new",
+  "time": "2018-02-22T16:57:57.681938014+01:00",
+  "data": {
+    "ipv4": "0.0.0.0",
+    "ipv6": "",
+    "mac": "--",
+    "hostname": "Some AP Name Here",
+    "alias": "",
+    "vendor": "",
+    "first_seen": "2018-02-22T16:57:57.681877278+01:00",
+    "last_seen": "2018-02-22T16:57:58.104218287+01:00",
+    "frequency": 2427,
+    "rssi": -56,
+    "sent": 0,
+    "received": 0,
+    "encryption": "OPEN",
+    "clients": []
+  }
+}]

@@ -1,0 +1,39 @@
+{
+    "hosts": [{
+        "ipv4": "192.168.1.33",
+        "ipv6": "",
+        "mac": "-",
+        "hostname": "",
+        "alias": "nas",
+        "vendor": "Noon Technology Co.",
+        "first_seen": "2018-02-23T06:28:43.661773691+01:00",
+        "last_seen": "2018-02-23T06:29:10.402653849+01:00",
+        "meta": {
+            "values": {}
+        }
+    }, {
+        "ipv4": "192.168.1.29",
+        "ipv6": "",
+        "mac": "-",
+        "hostname": "osxvm",
+        "alias": "",
+        "vendor": "PCS Systemtechnik GmbH",
+        "first_seen": "2018-02-23T06:28:43.661807871+01:00",
+        "last_seen": "2018-02-23T06:28:43.661807871+01:00",
+        "meta": {
+            "values": {}
+        }
+    }, {
+        "ipv4": "192.168.1.23",
+        "ipv6": "",
+        "mac": "00:AA:BB:CC:DD:11",
+        "hostname": "pihole",
+        "alias": "",
+        "vendor": "Raspberry Pi Foundation",
+        "first_seen": "2018-02-23T06:28:43.661854928+01:00",
+        "last_seen": "2018-02-23T06:29:14.786637323+01:00",
+        "meta": {
+            "values": {}
+        }
+    }]
+}

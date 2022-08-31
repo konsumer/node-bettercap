@@ -1,0 +1,8 @@
+{
+  "devices": [{
+    "last_seen": "2019-03-09T11:41:45.642403461+01:00",
+    "type": "Logitech",
+    "address": "32:26:9f:a4:08",
+    "channels": ["65"]
+  }]
+}

@@ -1,0 +1,106 @@
+{
+    "aps": [{
+            "alias": "",
+            "authentication": "PSK",
+            "cipher": "TKIP",
+            "clients": [],
+            "encryption": "WPA2",
+            "first_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "frequency": 2412,
+            "hostname": "AP1",
+            "ipv4": "0.0.0.0",
+            "ipv6": "",
+            "last_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "mac": "-",
+            "meta": {
+                "values": {}
+            },
+            "received": 0,
+            "rssi": -20,
+            "sent": 0,
+            "vendor": ""
+        },
+        {
+            "alias": "",
+            "authentication": "PSK",
+            "cipher": "TKIP",
+            "clients": [],
+            "encryption": "WPA2",
+            "first_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "frequency": 2412,
+            "hostname": "<hidden>",
+            "ipv4": "0.0.0.0",
+            "ipv6": "",
+            "last_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "mac": "-",
+            "meta": {
+                "values": {}
+            },
+            "received": 0,
+            "rssi": -16,
+            "sent": 0,
+            "vendor": ""
+        },
+        {
+            "alias": "",
+            "authentication": "PSK",
+            "cipher": "TKIP",
+            "clients": [],
+            "encryption": "WPA2",
+            "first_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "frequency": 2412,
+            "hostname": "<hidden>",
+            "ipv4": "0.0.0.0",
+            "ipv6": "",
+            "last_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "mac": "-",
+            "meta": {
+                "values": {}
+            },
+            "received": 0,
+            "rssi": -21,
+            "sent": 0,
+            "vendor": ""
+        },
+        {
+            "alias": "",
+            "authentication": "PSK",
+            "cipher": "CCMP",
+            "clients": [{
+                "alias": "",
+                "authentication": "",
+                "cipher": "",
+                "encryption": "",
+                "first_seen": "2018-02-23T06:28:43.650628576+01:00",
+                "frequency": 2427,
+                "hostname": "",
+                "ipv4": "0.0.0.0",
+                "ipv6": "",
+                "last_seen": "2018-02-23T06:28:43.650628576+01:00",
+                "mac": "00:AA:BB:CC:DD:22",
+                "meta": {
+                    "values": {}
+                },
+                "received": 0,
+                "rssi": -31,
+                "sent": 0,
+                "vendor": ""
+            }],
+            "encryption": "WPA2",
+            "first_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "frequency": 2427,
+            "hostname": "AP2",
+            "ipv4": "0.0.0.0",
+            "ipv6": "",
+            "last_seen": "2018-02-23T06:28:43.650628576+01:00",
+            "mac": "-",
+            "meta": {
+                "values": {}
+            },
+            "received": 3100,
+            "rssi": -31,
+            "sent": 1040,
+            "vendor": ""
+        }
+    ]
+}
