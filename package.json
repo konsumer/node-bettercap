@@ -15,7 +15,7 @@
     "test": "vitest run",
     "test:integration": "NODE_ENV=integration vitest run",
     "build": "npx -y microbundle",
-    "prepublish": "npm run build"
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,15 @@
     "cross-fetch": "^3.1.5",
     "msw": "^0.46.0",
     "vitest": "^0.22.1"
-  }
+  },
+  "files": [
+    "dist/bettercap.cjs",
+    "dist/bettercap.cjs.map",
+    "dist/bettercap.modern.js",
+    "dist/bettercap.modern.js.map",
+    "dist/bettercap.module.js",
+    "dist/bettercap.module.js.map",
+    "dist/bettercap.umd.js",
+    "dist/bettercap.umd.js.map"
+  ]
 }
