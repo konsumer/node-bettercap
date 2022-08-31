@@ -2,8 +2,6 @@
 
 This is a very simple bettercap API client.
 
-It assumes that you have a global `fetch` command, so you will need to use a very new version of node, import something like node-fetch (and make it global) or deno or bun.
-
 ## installation
 
 ```sh
@@ -17,6 +15,20 @@ import fetch from 'cross-fetch'
 import Bettercap from 'bettercap'
 
 globalThis.fetch = fetch
+
+console.log(await bettercap.command('net.recon on'))
+console.log(await bettercap.command('net.show'))
+console.log(await bettercap.session())
+```
+
+You can leave out the fetch polyfill if you run with `node --experimental-fetch`, '[deno](https://deno.land/) --allow-net', or [bun](https://bun.sh/):
+
+```js
+// for bun
+import Bettercap from 'bettercap'
+
+// for deno
+import Bettercap from 'npm:bettercap'
 
 console.log(await bettercap.command('net.recon on'))
 console.log(await bettercap.command('net.show'))
