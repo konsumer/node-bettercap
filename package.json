@@ -1,0 +1,36 @@
+{
+  "name": "bettercap",
+  "version": "0.0.1",
+  "description": "Bettercap API client for javascript",
+  "type": "module",
+  "source": "index.js",
+  "exports": {
+    "require": "./dist/bettercap.cjs",
+    "default": "./dist/bettercap.modern.js"
+  },
+  "main": "./dist/bettercap.cjs",
+  "module": "./dist/bettercap.module.js",
+  "unpkg": "./dist/bettercap.umd.js",
+  "scripts": {
+    "test": "vitest run",
+    "test:integration": "NODE_ENV=integration vitest run",
+    "build": "npx -y microbundle",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konsumer/node-bettercap.git"
+  },
+  "keywords": [],
+  "author": "David Konsumer <konsumer@jetboystudio.com> (https://konsumer.js.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konsumer/node-bettercap/issues"
+  },
+  "homepage": "https://github.com/konsumer/node-bettercap#readme",
+  "devDependencies": {
+    "cross-fetch": "^3.1.5",
+    "msw": "^0.46.0",
+    "vitest": "^0.22.1"
+  }
+}
