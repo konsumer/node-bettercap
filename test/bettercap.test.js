@@ -36,6 +36,12 @@ const server = setupServer(
     )
   }),
 
+  rest.get('http://localhost:8081/api/session/lan/00:AA:BB:CC:DD:11', (req, res, ctx) => {
+    return res(
+      ctx.json(mockLanMac)
+    )
+  }),
+
   rest.get('http://localhost:8081/api/session/wifi', (req, res, ctx) => {
     return res(
       ctx.json(mockWifi)

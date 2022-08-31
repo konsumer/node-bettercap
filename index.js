@@ -8,24 +8,40 @@ export default class Bettercap {
     return fetch(`${this.address}/api/session`).then(r => r.json())
   }
 
-  // Get a the lan devices in the current session
-  lan () {
-    return fetch(`${this.address}/api/session/lan`).then(r => r.json())
+  // Get a the lan devices in the current session, optional mac address
+  lan (mac) {
+    if (mac) {
+      return fetch(`${this.address}/api/session/lan/${mac}`).then(r => r.json())
+    } else {
+      return fetch(`${this.address}/api/session/lan`).then(r => r.json())
+    }
   }
 
-  // Get the wifi devices (clients and access points) in the current session
-  wifi () {
-    return fetch(`${this.address}/api/session/wifi`).then(r => r.json())
+  // Get the wifi devices (clients and access points) in the current session, optional mac address
+  wifi (mac) {
+    if (mac) {
+      return fetch(`${this.address}/api/session/wifi/${mac}`).then(r => r.json())
+    } else {
+      return fetch(`${this.address}/api/session/wifi`).then(r => r.json())
+    }
   }
 
-  // Get the BLE devices in the current session
-  ble () {
-    return fetch(`${this.address}/api/session/ble`).then(r => r.json())
+  // Get the BLE devices in the current session, optional mac address
+  ble (mac) {
+    if (mac) {
+      return fetch(`${this.address}/api/session/ble/${mac}`).then(r => r.json())
+    } else {
+      return fetch(`${this.address}/api/session/ble`).then(r => r.json())
+    }
   }
 
-  // Get the HID devices in the current session
-  hid () {
-    return fetch(`${this.address}/api/session/hid`).then(r => r.json())
+  // Get the HID devices in the current session, optional mac address
+  hid (mac) {
+    if (mac) {
+      return fetch(`${this.address}/api/session/hid/${mac}`).then(r => r.json())
+    } else {
+      return fetch(`${this.address}/api/session/hid`).then(r => r.json())
+    }
   }
 
   // Get the environment variables in the current session
